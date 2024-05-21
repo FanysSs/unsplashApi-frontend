@@ -1,0 +1,38 @@
+/* header.css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffeb3b;
+    align-items: center;
+  }
+  
+  .header-left, .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left a, .header-right a, .header-right div {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-left a:hover, .header-right a:hover, .header-right div:hover {
+    color: #ff9800;
+  }
+  
+  .header-logo {
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 1.5em;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
